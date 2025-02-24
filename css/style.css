@@ -192,6 +192,10 @@ li{
     margin: auto;
 }
 
+.col-20{
+    width: 20%;
+}
+
 .col-30{
     width: 30%;
 }
@@ -208,7 +212,44 @@ li{
     width: 100%;
 }
 
-/*-- FOOTER --*/
+/*--FOOTER--*/
+
+footer{
+    color: white;
+    height: auto;
+    
+}
+
+.social{
+    margin-right: 3px;
+}
+
+.blue-text{
+    color: #6378be;
+    font-size: 20px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.ita{
+    height: 20px;
+    margin: 20px 0 15px 0;
+}
+
+.ita img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.align-left{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .foot{
     height: 80px;
@@ -231,15 +272,18 @@ li{
     padding-top: 2px;
 }
 
+.bottomtext-tech{
+    background-image: url(../img/stars.svg);
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 /*-- ALL BG COLORS --*/
 
 .bg-blue{
     background-color: darkblue;
-}
-
-.bg-pink{
-    background-color: pink;
 }
 
 .bg-gray{
@@ -248,16 +292,4 @@ li{
 
 .bg-darkgray{
     background-color: #2b2a2a;
-}
-
-.bg-rose{
-    background-color: palevioletred;
-}
-
-.bg-darkcyan{
-    background-color: darkcyan;
-}
-
-.bg-aqua{
-    background-color: aquamarine;
 }
