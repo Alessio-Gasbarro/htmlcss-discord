@@ -28,13 +28,13 @@ h2{
 }
 
 
-ul{
+.first-ul{
     color: white;
     padding-top: 5px;
     list-style-type: none;
 }
 
-li{
+.first-li{
     display: inline-block;
     margin: 0px 10px;
 }
@@ -87,9 +87,11 @@ li{
 }
 
 .container{
+    display: flex;
     max-width: 1180px;
     height: auto;
     margin: 0 auto;
+    padding: 5px;
 }
 
 /*-- SEZIONE MAIN --*/
@@ -197,7 +199,7 @@ li{
 }
 
 .column{
-    display: flex;
+
 }
 
 .col-30{
@@ -217,6 +219,15 @@ li{
 }
 
 /*--FOOTER--*/
+
+.register{
+    background-color: #7289da;
+    color: white;
+    border: 1px solid #7289da;
+    border-radius: 24px;
+    text-align: center;
+    padding-top: 5px;
+}
 
 footer{
     color: white;
@@ -257,13 +268,11 @@ footer{
 
 .foot{
     height: 80px;
-    border: 1px solid #000;
     margin-top: 10px;
 }
 
 .foot-btn{
     width: 100px;
-    border: 2px dashed #000;
     margin: 25px 0;
 }
 
@@ -284,6 +293,16 @@ footer{
     background-size: contain;
 }
 
+.hr{
+    height: 1px;
+    background-color: #6378be;
+}
+
+.second-li{
+    list-style-type: none;
+    padding: 5px;
+}
+
 /*-- ALL BG COLORS --*/
 
 .bg-blue{
@@ -295,5 +314,5 @@ footer{
 }
 
 .bg-darkgray{
-    background-color: #2b2a2a;
+    background-color: #23272a;
 }
