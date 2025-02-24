@@ -196,6 +196,10 @@ li{
     width: 20%;
 }
 
+.column{
+    display: flex;
+}
+
 .col-30{
     width: 30%;
 }
