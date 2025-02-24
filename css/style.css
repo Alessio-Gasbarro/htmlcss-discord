@@ -124,6 +124,8 @@ li{
     height: 650px;
 }
 
+/*--SEZIONE TEXT-IMG--*/
+
 .img1-3{
     background-image: url(../img/item1.svg);
     background-size: contain;
@@ -146,6 +148,28 @@ li{
     vertical-align: middle;
     padding-top: 15%;
     text-align: left;
+}
+
+.img3-3{
+    background-image: url(../img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text3-3{
+    vertical-align: middle;
+    text-align: left;
+    padding-top: 5%;
+}
+
+.toptext-tech{
+    padding-top: 5%;
+}
+
+.img-tech{
+    background-image: url(../img/item4-big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .col-home{
@@ -205,10 +229,6 @@ li{
 
 .bg-gray{
     background-color: lightgray;
-}
-
-.bg-green{
-    background-color: green;
 }
 
 .bg-darkgray{
