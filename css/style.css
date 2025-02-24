@@ -91,7 +91,7 @@ h2{
     max-width: 1180px;
     height: auto;
     margin: 0 auto;
-    padding: 5px;
+    padding: 30px;
 }
 
 /*-- SEZIONE MAIN --*/
@@ -304,10 +304,6 @@ footer{
 }
 
 /*-- ALL BG COLORS --*/
-
-.bg-blue{
-    background-color: darkblue;
-}
 
 .bg-gray{
     background-color: lightgray;
