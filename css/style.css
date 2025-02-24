@@ -83,7 +83,7 @@ li{
 .bg-container{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-position
+    background-position: bottom;
 }
 
 .container{
@@ -100,9 +100,14 @@ li{
     box-sizing: border-box;
     text-align: center;
     letter-spacing: .25px;
-    padding: 10px;
+    padding: 18px;
     margin-top: 25px;
     font-size: 20px;
+}
+
+.browser-open{
+    background-color: #000;
+    color: white;
 }
 
 .content{
@@ -117,6 +122,30 @@ li{
 
 .thicc{
     height: 650px;
+}
+
+.img1-3{
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text1-3{
+    vertical-align: middle;
+    text-align: left;
+    padding-top: 5%;
+}
+
+.img2-3{
+    background-image: url(../img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text2-3{
+    vertical-align: middle;
+    padding-top: 15%;
+    text-align: left;
 }
 
 .col-home{
